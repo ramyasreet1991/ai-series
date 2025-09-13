@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 export function Badge({ children, variant='default', className='' }: any){
   const variants: any = {

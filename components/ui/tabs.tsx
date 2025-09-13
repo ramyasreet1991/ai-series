@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 export function Tabs({ value, onValueChange, className='', children }: any){
   return <div className={className}>{React.Children.map(children, (child: any) => {

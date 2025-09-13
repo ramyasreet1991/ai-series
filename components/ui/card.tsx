@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 export function Card({ className = "", children }: any){ return <div className={`rounded-2xl border border-slate-200 bg-white ${className}`}>{children}</div>; }
 export function CardHeader({ children }: any){ return <div className="p-4 border-b border-slate-100">{children}</div>; }

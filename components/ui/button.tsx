@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 export function Button({ children, variant='default', size='md', className='', ...props }: any){
   const base = "inline-flex items-center justify-center rounded-xl font-medium transition";
